@@ -1,0 +1,5 @@
+build/
+*.apk
+*.keystore
+__pycache__/
+web/jokes.js

@@ -1,0 +1,1746 @@
+{
+ "version": 1,
+ "updated": "2026-10-21",
+ "jokes": [
+  {
+   "id": 1,
+   "s": "Why don't skeletons fight each other?",
+   "p": "They don't have the guts."
+  },
+  {
+   "id": 2,
+   "s": "What do you call a fake noodle?",
+   "p": "An impasta."
+  },
+  {
+   "id": 3,
+   "s": "Why did the scarecrow win an award?",
+   "p": "Because he was outstanding in his field."
+  },
+  {
+   "id": 4,
+   "s": "I'm reading a book about anti-gravity.",
+   "p": "It's impossible to put down."
+  },
+  {
+   "id": 5,
+   "s": "What do you call a bear with no teeth?",
+   "p": "A gummy bear."
+  },
+  {
+   "id": 6,
+   "s": "Why can't a nose be 12 inches long?",
+   "p": "Because then it would be a foot."
+  },
+  {
+   "id": 7,
+   "s": "How does a penguin build its house?",
+   "p": "Igloos it together."
+  },
+  {
+   "id": 8,
+   "s": "What did the ocean say to the beach?",
+   "p": "Nothing, it just waved."
+  },
+  {
+   "id": 9,
+   "s": "Why did the coffee file a police report?",
+   "p": "It got mugged."
+  },
+  {
+   "id": 10,
+   "s": "What do you call cheese that isn't yours?",
+   "p": "Nacho cheese."
+  },
+  {
+   "id": 11,
+   "s": "I used to hate facial hair...",
+   "p": "but then it grew on me."
+  },
+  {
+   "id": 12,
+   "s": "What do you call a factory that makes okay products?",
+   "p": "A satisfactory."
+  },
+  {
+   "id": 13,
+   "s": "Why do seagulls fly over the sea?",
+   "p": "Because if they flew over the bay, they'd be bagels."
+  },
+  {
+   "id": 14,
+   "s": "What did the janitor say when he jumped out of the closet?",
+   "p": "Supplies!"
+  },
+  {
+   "id": 15,
+   "s": "How do you organize a space party?",
+   "p": "You planet."
+  },
+  {
+   "id": 16,
+   "s": "Why did the bicycle fall over?",
+   "p": "It was two tired."
+  },
+  {
+   "id": 17,
+   "s": "What do you call a dog that can do magic?",
+   "p": "A labracadabrador."
+  },
+  {
+   "id": 18,
+   "s": "What's brown and sticky?",
+   "p": "A stick."
+  },
+  {
+   "id": 19,
+   "s": "Why don't eggs tell jokes?",
+   "p": "They'd crack each other up."
+  },
+  {
+   "id": 20,
+   "s": "I only know 25 letters of the alphabet.",
+   "p": "I don't know y."
+  },
+  {
+   "id": 21,
+   "s": "What did the zero say to the eight?",
+   "p": "Nice belt."
+  },
+  {
+   "id": 22,
+   "s": "Did you hear about the restaurant on the moon?",
+   "p": "Great food, no atmosphere."
+  },
+  {
+   "id": 23,
+   "s": "Why couldn't the leopard play hide and seek?",
+   "p": "Because he was always spotted."
+  },
+  {
+   "id": 24,
+   "s": "What do you call a sleeping bull?",
+   "p": "A bulldozer."
+  },
+  {
+   "id": 25,
+   "s": "Why did the math book look so sad?",
+   "p": "Because it had too many problems."
+  },
+  {
+   "id": 26,
+   "s": "What do you call a pile of cats?",
+   "p": "A meowtain."
+  },
+  {
+   "id": 27,
+   "s": "How do you make a tissue dance?",
+   "p": "You put a little boogie in it."
+  },
+  {
+   "id": 28,
+   "s": "Why did the golfer bring two pairs of pants?",
+   "p": "In case he got a hole in one."
+  },
+  {
+   "id": 29,
+   "s": "What do you call a man with a rubber toe?",
+   "p": "Roberto."
+  },
+  {
+   "id": 30,
+   "s": "I would avoid the sushi if I were you.",
+   "p": "It's a little fishy."
+  },
+  {
+   "id": 31,
+   "s": "What does a lemon say when it answers the phone?",
+   "p": "Yellow!"
+  },
+  {
+   "id": 32,
+   "s": "Why did the tomato blush?",
+   "p": "Because it saw the salad dressing."
+  },
+  {
+   "id": 33,
+   "s": "How do you find Will Smith in the snow?",
+   "p": "You look for the fresh prints."
+  },
+  {
+   "id": 34,
+   "s": "Want to hear a joke about construction?",
+   "p": "I'm still working on it."
+  },
+  {
+   "id": 35,
+   "s": "What do you call an alligator in a vest?",
+   "p": "An investigator."
+  },
+  {
+   "id": 36,
+   "s": "Why are elevator jokes so classic?",
+   "p": "They work on so many levels."
+  },
+  {
+   "id": 37,
+   "s": "What did one wall say to the other wall?",
+   "p": "I'll meet you at the corner."
+  },
+  {
+   "id": 38,
+   "s": "What kind of shoes do ninjas wear?",
+   "p": "Sneakers."
+  },
+  {
+   "id": 39,
+   "s": "What did the grape do when it got stepped on?",
+   "p": "It let out a little wine."
+  },
+  {
+   "id": 40,
+   "s": "How does a train eat?",
+   "p": "It goes chew chew."
+  },
+  {
+   "id": 41,
+   "s": "Why did the cookie go to the hospital?",
+   "p": "Because it felt crummy."
+  },
+  {
+   "id": 42,
+   "s": "What do you call a belt made of watches?",
+   "p": "A waist of time."
+  },
+  {
+   "id": 43,
+   "s": "I'm afraid for the calendar.",
+   "p": "Its days are numbered."
+  },
+  {
+   "id": 44,
+   "s": "What do you call a boomerang that won't come back?",
+   "p": "A stick."
+  },
+  {
+   "id": 45,
+   "s": "Why do cows wear bells?",
+   "p": "Because their horns don't work."
+  },
+  {
+   "id": 46,
+   "s": "What did the buffalo say when his son left for college?",
+   "p": "Bison."
+  },
+  {
+   "id": 47,
+   "s": "What do you call a fish wearing a bowtie?",
+   "p": "Sofishticated."
+  },
+  {
+   "id": 48,
+   "s": "Why don't oysters donate to charity?",
+   "p": "Because they're shellfish."
+  },
+  {
+   "id": 49,
+   "s": "How do you make holy water?",
+   "p": "You boil the hell out of it."
+  },
+  {
+   "id": 50,
+   "s": "What's the best thing about Switzerland?",
+   "p": "I don't know, but the flag is a big plus."
+  },
+  {
+   "id": 51,
+   "s": "I used to be addicted to soap.",
+   "p": "But I'm clean now."
+  },
+  {
+   "id": 52,
+   "s": "What do you call a can opener that doesn't work?",
+   "p": "A can't opener."
+  },
+  {
+   "id": 53,
+   "s": "Why did the invisible man turn down the job offer?",
+   "p": "He couldn't see himself doing it."
+  },
+  {
+   "id": 54,
+   "s": "What do you call a deer with no eyes?",
+   "p": "No idea."
+  },
+  {
+   "id": 55,
+   "s": "What do you call a deer with no eyes and no legs?",
+   "p": "Still no idea."
+  },
+  {
+   "id": 56,
+   "s": "Why did the stadium get hot after the game?",
+   "p": "All the fans left."
+  },
+  {
+   "id": 57,
+   "s": "What do sprinters eat before a race?",
+   "p": "Nothing, they fast."
+  },
+  {
+   "id": 58,
+   "s": "How many tickles does it take to make an octopus laugh?",
+   "p": "Ten tickles."
+  },
+  {
+   "id": 59,
+   "s": "Why was the broom late?",
+   "p": "It over-swept."
+  },
+  {
+   "id": 60,
+   "s": "What do you call an elephant that doesn't matter?",
+   "p": "An irrelephant."
+  },
+  {
+   "id": 61,
+   "s": "Why did the man fall down the well?",
+   "p": "Because he couldn't see that well."
+  },
+  {
+   "id": 62,
+   "s": "What did the left eye say to the right eye?",
+   "p": "Between you and me, something smells."
+  },
+  {
+   "id": 63,
+   "s": "What do you call a cow with no legs?",
+   "p": "Ground beef."
+  },
+  {
+   "id": 64,
+   "s": "What do you call a cow with two legs?",
+   "p": "Lean beef."
+  },
+  {
+   "id": 65,
+   "s": "Why don't scientists trust atoms?",
+   "p": "Because they make up everything."
+  },
+  {
+   "id": 66,
+   "s": "I told my wife she was drawing her eyebrows too high.",
+   "p": "She looked surprised."
+  },
+  {
+   "id": 67,
+   "s": "What did the fish say when it hit the wall?",
+   "p": "Dam."
+  },
+  {
+   "id": 68,
+   "s": "What did the pirate say on his 80th birthday?",
+   "p": "Aye matey."
+  },
+  {
+   "id": 69,
+   "s": "How do you get a squirrel to like you?",
+   "p": "Act like a nut."
+  },
+  {
+   "id": 70,
+   "s": "Why don't some couples go to the gym?",
+   "p": "Because some relationships don't work out."
+  },
+  {
+   "id": 71,
+   "s": "What's orange and sounds like a parrot?",
+   "p": "A carrot."
+  },
+  {
+   "id": 72,
+   "s": "Why do bees have sticky hair?",
+   "p": "Because they use honeycombs."
+  },
+  {
+   "id": 73,
+   "s": "What do you call a snowman with a six-pack?",
+   "p": "An abdominal snowman."
+  },
+  {
+   "id": 74,
+   "s": "I don't trust stairs.",
+   "p": "They're always up to something."
+  },
+  {
+   "id": 75,
+   "s": "What did the drummer call his twin daughters?",
+   "p": "Anna One, Anna Two."
+  },
+  {
+   "id": 76,
+   "s": "Why are spiders so smart?",
+   "p": "They can find everything on the web."
+  },
+  {
+   "id": 77,
+   "s": "What do you call a lazy kangaroo?",
+   "p": "A pouch potato."
+  },
+  {
+   "id": 78,
+   "s": "Why was the picture sent to jail?",
+   "p": "It was framed."
+  },
+  {
+   "id": 79,
+   "s": "What did the hat say to the scarf?",
+   "p": "You hang around, I'll go on ahead."
+  },
+  {
+   "id": 80,
+   "s": "Where do boats go when they're sick?",
+   "p": "To the dock."
+  },
+  {
+   "id": 81,
+   "s": "What's a skeleton's least favorite room?",
+   "p": "The living room."
+  },
+  {
+   "id": 82,
+   "s": "Why did the kid bring a ladder to school?",
+   "p": "Because she wanted to go to high school."
+  },
+  {
+   "id": 83,
+   "s": "What's the best time to go to the dentist?",
+   "p": "Tooth-hurty."
+  },
+  {
+   "id": 84,
+   "s": "Why do ducks have feathers?",
+   "p": "To cover their butt quacks."
+  },
+  {
+   "id": 85,
+   "s": "What did the big flower say to the little flower?",
+   "p": "Hey, bud!"
+  },
+  {
+   "id": 86,
+   "s": "What do you call two monkeys sharing an Amazon account?",
+   "p": "Prime mates."
+  },
+  {
+   "id": 87,
+   "s": "How does the moon cut his hair?",
+   "p": "Eclipse it."
+  },
+  {
+   "id": 88,
+   "s": "What do you call a hippie's wife?",
+   "p": "Mississippi."
+  },
+  {
+   "id": 89,
+   "s": "What did the baby corn say to the mama corn?",
+   "p": "Where's pop corn?"
+  },
+  {
+   "id": 90,
+   "s": "Why did the banana go to the doctor?",
+   "p": "It wasn't peeling well."
+  },
+  {
+   "id": 91,
+   "s": "Why are fish so smart?",
+   "p": "They live in schools."
+  },
+  {
+   "id": 92,
+   "s": "What do you call a parade of rabbits hopping backwards?",
+   "p": "A receding hare line."
+  },
+  {
+   "id": 93,
+   "s": "Why don't calculators ever get lonely?",
+   "p": "They can always count on each other."
+  },
+  {
+   "id": 94,
+   "s": "What do you call a dinosaur with an extensive vocabulary?",
+   "p": "A thesaurus."
+  },
+  {
+   "id": 95,
+   "s": "What do you call a dinosaur that's sleeping?",
+   "p": "A dino-snore."
+  },
+  {
+   "id": 96,
+   "s": "What do you call a sad strawberry?",
+   "p": "A blueberry."
+  },
+  {
+   "id": 97,
+   "s": "Did you hear about the claustrophobic astronaut?",
+   "p": "He just needed a little space."
+  },
+  {
+   "id": 98,
+   "s": "Why did the gym close down?",
+   "p": "It just didn't work out."
+  },
+  {
+   "id": 99,
+   "s": "What did one plate say to the other plate?",
+   "p": "Dinner's on me."
+  },
+  {
+   "id": 100,
+   "s": "What do lawyers wear to court?",
+   "p": "Lawsuits."
+  },
+  {
+   "id": 101,
+   "s": "What do you get when you cross a snowman with a vampire?",
+   "p": "Frostbite."
+  },
+  {
+   "id": 102,
+   "s": "How do you make an octopus laugh?",
+   "p": "With ten-tickles."
+  },
+  {
+   "id": 103,
+   "s": "What do you call a fish with no eyes?",
+   "p": "A fsh."
+  },
+  {
+   "id": 104,
+   "s": "Why did the computer go to the doctor?",
+   "p": "It had a virus."
+  },
+  {
+   "id": 105,
+   "s": "Why was the computer cold?",
+   "p": "It left its Windows open."
+  },
+  {
+   "id": 106,
+   "s": "Why don't programmers like nature?",
+   "p": "It has too many bugs."
+  },
+  {
+   "id": 107,
+   "s": "How do trees access the internet?",
+   "p": "They log in."
+  },
+  {
+   "id": 108,
+   "s": "Why did the smartphone need glasses?",
+   "p": "It lost all its contacts."
+  },
+  {
+   "id": 109,
+   "s": "What's a computer's favorite snack?",
+   "p": "Microchips."
+  },
+  {
+   "id": 110,
+   "s": "I'm on a seafood diet.",
+   "p": "I see food and I eat it."
+  },
+  {
+   "id": 111,
+   "s": "Why did the chicken join a band?",
+   "p": "Because it had the drumsticks."
+  },
+  {
+   "id": 112,
+   "s": "What did the duck say when it bought lipstick?",
+   "p": "Put it on my bill."
+  },
+  {
+   "id": 113,
+   "s": "Why did the cow go to outer space?",
+   "p": "To see the moooon."
+  },
+  {
+   "id": 114,
+   "s": "What do you call a cow that plays an instrument?",
+   "p": "A moo-sician."
+  },
+  {
+   "id": 115,
+   "s": "What do you call a horse that lives next door?",
+   "p": "A neigh-bor."
+  },
+  {
+   "id": 116,
+   "s": "What do you call a pig that does karate?",
+   "p": "A pork chop."
+  },
+  {
+   "id": 117,
+   "s": "Why are pigs bad at football?",
+   "p": "They always hog the ball."
+  },
+  {
+   "id": 118,
+   "s": "What do you get from a pampered cow?",
+   "p": "Spoiled milk."
+  },
+  {
+   "id": 119,
+   "s": "What do you call a sheep with no legs?",
+   "p": "A cloud."
+  },
+  {
+   "id": 120,
+   "s": "Why did the sheep go to the spa?",
+   "p": "It needed a little ewe time."
+  },
+  {
+   "id": 121,
+   "s": "What do you call an owl that does magic?",
+   "p": "Hoo-dini."
+  },
+  {
+   "id": 122,
+   "s": "What do you call a bee that can't make up its mind?",
+   "p": "A maybee."
+  },
+  {
+   "id": 123,
+   "s": "What's a bee's favorite haircut?",
+   "p": "A buzz cut."
+  },
+  {
+   "id": 124,
+   "s": "What did the bee say to the flower?",
+   "p": "Hey bud, when do you open?"
+  },
+  {
+   "id": 125,
+   "s": "What do you call a fly without wings?",
+   "p": "A walk."
+  },
+  {
+   "id": 126,
+   "s": "What kind of music do mummies listen to?",
+   "p": "Wrap music."
+  },
+  {
+   "id": 127,
+   "s": "Why didn't the skeleton go to the dance?",
+   "p": "He had no body to go with."
+  },
+  {
+   "id": 128,
+   "s": "What room does a ghost not need?",
+   "p": "A living room."
+  },
+  {
+   "id": 129,
+   "s": "Why do ghosts love elevators?",
+   "p": "It lifts their spirits."
+  },
+  {
+   "id": 130,
+   "s": "What's a vampire's favorite fruit?",
+   "p": "A blood orange."
+  },
+  {
+   "id": 131,
+   "s": "What do you call a witch at the beach?",
+   "p": "A sand-witch."
+  },
+  {
+   "id": 132,
+   "s": "Why do mummies have trouble keeping friends?",
+   "p": "They're too wrapped up in themselves."
+  },
+  {
+   "id": 133,
+   "s": "I told a chemistry joke once.",
+   "p": "There was no reaction."
+  },
+  {
+   "id": 134,
+   "s": "Why are frogs so happy?",
+   "p": "They eat whatever bugs them."
+  },
+  {
+   "id": 135,
+   "s": "What do frogs order at restaurants?",
+   "p": "French flies."
+  },
+  {
+   "id": 136,
+   "s": "Why did the frog take the bus to work?",
+   "p": "His car got toad."
+  },
+  {
+   "id": 137,
+   "s": "What do you call a frog with no legs?",
+   "p": "Unhoppy."
+  },
+  {
+   "id": 138,
+   "s": "What do you call a bear in the rain?",
+   "p": "A drizzly bear."
+  },
+  {
+   "id": 139,
+   "s": "Why don't bears wear shoes?",
+   "p": "What's the point, they'd still have bear feet."
+  },
+  {
+   "id": 140,
+   "s": "What do you call a lion who never tells the truth?",
+   "p": "A lion."
+  },
+  {
+   "id": 141,
+   "s": "What does a cloud wear under his raincoat?",
+   "p": "Thunderwear."
+  },
+  {
+   "id": 142,
+   "s": "How do hurricanes see?",
+   "p": "With one eye."
+  },
+  {
+   "id": 143,
+   "s": "What did the tornado say to the sports car?",
+   "p": "Want to go for a spin?"
+  },
+  {
+   "id": 144,
+   "s": "Why did the sun go to school?",
+   "p": "To get brighter."
+  },
+  {
+   "id": 145,
+   "s": "What do you call a snowman in July?",
+   "p": "A puddle."
+  },
+  {
+   "id": 146,
+   "s": "What do you call a snowman's dog?",
+   "p": "A slush puppy."
+  },
+  {
+   "id": 147,
+   "s": "Why did the man put his money in the freezer?",
+   "p": "He wanted cold hard cash."
+  },
+  {
+   "id": 148,
+   "s": "What did the dollar say to the four quarters?",
+   "p": "You've changed."
+  },
+  {
+   "id": 149,
+   "s": "Why is money called dough?",
+   "p": "Because we all knead it."
+  },
+  {
+   "id": 150,
+   "s": "Why did the banker quit his job?",
+   "p": "He lost interest."
+  },
+  {
+   "id": 151,
+   "s": "How do you make a hot dog stand?",
+   "p": "You steal its chair."
+  },
+  {
+   "id": 152,
+   "s": "What did the bread say to the butter?",
+   "p": "You're on a roll."
+  },
+  {
+   "id": 153,
+   "s": "Why did the baker go to therapy?",
+   "p": "He kneaded it."
+  },
+  {
+   "id": 154,
+   "s": "What kind of bagel can fly?",
+   "p": "A plain bagel."
+  },
+  {
+   "id": 155,
+   "s": "Why did the orange stop halfway up the hill?",
+   "p": "It ran out of juice."
+  },
+  {
+   "id": 156,
+   "s": "What do you call a peanut in a spacesuit?",
+   "p": "An astronut."
+  },
+  {
+   "id": 157,
+   "s": "What did the lettuce say to the celery?",
+   "p": "Quit stalking me."
+  },
+  {
+   "id": 158,
+   "s": "Why did the potato cross the road?",
+   "p": "It saw a fork up ahead."
+  },
+  {
+   "id": 159,
+   "s": "What do you call a potato wearing glasses?",
+   "p": "A spec-tater."
+  },
+  {
+   "id": 160,
+   "s": "What do you call an angry carrot?",
+   "p": "A steamed veggie."
+  },
+  {
+   "id": 161,
+   "s": "Why did the mushroom get invited to every party?",
+   "p": "Because he's a fungi."
+  },
+  {
+   "id": 162,
+   "s": "What did the pepper say to the salt?",
+   "p": "Shake it off."
+  },
+  {
+   "id": 163,
+   "s": "What do you call a cheese that's sad?",
+   "p": "Blue cheese."
+  },
+  {
+   "id": 164,
+   "s": "What kind of cheese do you use to hide a horse?",
+   "p": "Mascarpone."
+  },
+  {
+   "id": 165,
+   "s": "Why did the cheese refuse to be grated?",
+   "p": "It had too much pride. It was a gouda cheese."
+  },
+  {
+   "id": 166,
+   "s": "What do you call a stolen yam?",
+   "p": "A hot potato."
+  },
+  {
+   "id": 167,
+   "s": "What did the egg say to the frying pan?",
+   "p": "You crack me up."
+  },
+  {
+   "id": 168,
+   "s": "How do you fix a cracked pumpkin?",
+   "p": "With a pumpkin patch."
+  },
+  {
+   "id": 169,
+   "s": "What did the apple say to the almond?",
+   "p": "You're nuts."
+  },
+  {
+   "id": 170,
+   "s": "Why do melons have weddings?",
+   "p": "Because they cantaloupe."
+  },
+  {
+   "id": 171,
+   "s": "What do you call two bananas?",
+   "p": "A pair of slippers."
+  },
+  {
+   "id": 172,
+   "s": "Why did the cucumber need a lawyer?",
+   "p": "It was in a pickle."
+  },
+  {
+   "id": 173,
+   "s": "What does a nosey pepper do?",
+   "p": "Gets jalapeño business."
+  },
+  {
+   "id": 174,
+   "s": "What is a vegetable's favorite martial art?",
+   "p": "Kung-food. Okay, kale-rate."
+  },
+  {
+   "id": 175,
+   "s": "Why did the cookie cry?",
+   "p": "Because his mother was a wafer so long."
+  },
+  {
+   "id": 176,
+   "s": "What do you call a train carrying bubblegum?",
+   "p": "A chew-chew train."
+  },
+  {
+   "id": 177,
+   "s": "What do you call a nervous javelin thrower?",
+   "p": "Shakespeare."
+  },
+  {
+   "id": 178,
+   "s": "What do you call a guy lying on your doorstep?",
+   "p": "Matt."
+  },
+  {
+   "id": 179,
+   "s": "What do you call a guy with a shovel?",
+   "p": "Doug."
+  },
+  {
+   "id": 180,
+   "s": "What do you call a guy without a shovel?",
+   "p": "Douglas."
+  },
+  {
+   "id": 181,
+   "s": "What do you call a woman who sounds like an ambulance?",
+   "p": "Nina."
+  },
+  {
+   "id": 182,
+   "s": "What do you call a man who can't stand?",
+   "p": "Neil."
+  },
+  {
+   "id": 183,
+   "s": "What do you call a guy who's always hanging on the wall?",
+   "p": "Art."
+  },
+  {
+   "id": 184,
+   "s": "What do you call a guy floating in the ocean?",
+   "p": "Bob."
+  },
+  {
+   "id": 185,
+   "s": "What do you call a woman with one leg?",
+   "p": "Eileen."
+  },
+  {
+   "id": 186,
+   "s": "Why did the tailor quit?",
+   "p": "The job was just too sew-sew."
+  },
+  {
+   "id": 187,
+   "s": "Why are skeletons so calm?",
+   "p": "Because nothing gets under their skin."
+  },
+  {
+   "id": 188,
+   "s": "Why can't you hear a pterodactyl go to the bathroom?",
+   "p": "Because the P is silent."
+  },
+  {
+   "id": 189,
+   "s": "What do you call a magician who lost his magic?",
+   "p": "Ian."
+  },
+  {
+   "id": 190,
+   "s": "Why did the golf ball go to the doctor?",
+   "p": "It had a slice."
+  },
+  {
+   "id": 191,
+   "s": "Why are basketball players messy eaters?",
+   "p": "They're always dribbling."
+  },
+  {
+   "id": 192,
+   "s": "What's a cheerleader's favorite drink?",
+   "p": "Root beer."
+  },
+  {
+   "id": 193,
+   "s": "Why did the football coach go to the bank?",
+   "p": "To get his quarterback."
+  },
+  {
+   "id": 194,
+   "s": "Why is Cinderella bad at soccer?",
+   "p": "She keeps running away from the ball."
+  },
+  {
+   "id": 195,
+   "s": "What do you call a pig that plays basketball?",
+   "p": "A ball hog."
+  },
+  {
+   "id": 196,
+   "s": "Why did the boxer love his job?",
+   "p": "It was striking."
+  },
+  {
+   "id": 197,
+   "s": "How do baseball players stay cool?",
+   "p": "They sit next to their fans."
+  },
+  {
+   "id": 198,
+   "s": "I tried to catch some fog yesterday.",
+   "p": "I mist."
+  },
+  {
+   "id": 199,
+   "s": "I used to work in a shoe recycling shop.",
+   "p": "It was sole destroying."
+  },
+  {
+   "id": 200,
+   "s": "I got a job at a bakery because I kneaded dough.",
+   "p": "Now I'm on a roll."
+  },
+  {
+   "id": 201,
+   "s": "I was going to tell a time-traveling joke.",
+   "p": "But you didn't like it."
+  },
+  {
+   "id": 202,
+   "s": "I quit my job at the helium factory.",
+   "p": "I refuse to be spoken to in that tone."
+  },
+  {
+   "id": 203,
+   "s": "I'm terrified of elevators.",
+   "p": "So I'm taking steps to avoid them."
+  },
+  {
+   "id": 204,
+   "s": "I don't play soccer because I enjoy the sport.",
+   "p": "I'm just doing it for kicks."
+  },
+  {
+   "id": 205,
+   "s": "I used to be a banker.",
+   "p": "But I lost interest."
+  },
+  {
+   "id": 206,
+   "s": "I once got fired from a canned juice company.",
+   "p": "Apparently I couldn't concentrate."
+  },
+  {
+   "id": 207,
+   "s": "I'm so good at sleeping.",
+   "p": "I can do it with my eyes closed."
+  },
+  {
+   "id": 208,
+   "s": "I tried to write a joke about a broken pencil.",
+   "p": "But it was pointless."
+  },
+  {
+   "id": 209,
+   "s": "I gave all my dead batteries away today.",
+   "p": "Free of charge."
+  },
+  {
+   "id": 210,
+   "s": "I ordered a chicken and an egg online.",
+   "p": "I'll let you know which comes first."
+  },
+  {
+   "id": 211,
+   "s": "I used to play piano by ear.",
+   "p": "Now I use my hands."
+  },
+  {
+   "id": 212,
+   "s": "I asked the librarian if they had books on paranoia.",
+   "p": "She whispered, they're right behind you."
+  },
+  {
+   "id": 213,
+   "s": "I can't believe I got fired from the calendar factory.",
+   "p": "All I did was take a day off."
+  },
+  {
+   "id": 214,
+   "s": "My wife told me to stop impersonating a flamingo.",
+   "p": "I had to put my foot down."
+  },
+  {
+   "id": 215,
+   "s": "I wouldn't buy anything with velcro.",
+   "p": "It's a total rip-off."
+  },
+  {
+   "id": 216,
+   "s": "I've been bored recently, so I decided to take up fencing.",
+   "p": "The neighbors keep demanding that I put it back."
+  },
+  {
+   "id": 217,
+   "s": "My dog used to chase people on a bike a lot.",
+   "p": "It got so bad I had to take his bike away."
+  },
+  {
+   "id": 218,
+   "s": "I'm reading a horror story in Braille.",
+   "p": "Something bad is going to happen, I can feel it."
+  },
+  {
+   "id": 219,
+   "s": "I couldn't figure out why the baseball kept getting bigger.",
+   "p": "Then it hit me."
+  },
+  {
+   "id": 220,
+   "s": "I told my suitcase there will be no vacation this year.",
+   "p": "Now I'm dealing with emotional baggage."
+  },
+  {
+   "id": 221,
+   "s": "I asked my dog what two minus two is.",
+   "p": "He said nothing."
+  },
+  {
+   "id": 222,
+   "s": "I used to run a dating service for chickens.",
+   "p": "But I was struggling to make hens meet."
+  },
+  {
+   "id": 223,
+   "s": "I have a joke about chemistry.",
+   "p": "But I don't think it will get a reaction."
+  },
+  {
+   "id": 224,
+   "s": "I'm friends with 25 letters of the alphabet.",
+   "p": "I don't know why."
+  },
+  {
+   "id": 225,
+   "s": "I wanted to be a doctor.",
+   "p": "But I didn't have the patients."
+  },
+  {
+   "id": 226,
+   "s": "Spring is here!",
+   "p": "I got so excited I wet my plants."
+  },
+  {
+   "id": 227,
+   "s": "I sold my vacuum cleaner.",
+   "p": "It was just collecting dust."
+  },
+  {
+   "id": 228,
+   "s": "I made a pencil with two erasers.",
+   "p": "It was pointless."
+  },
+  {
+   "id": 229,
+   "s": "I tell dad jokes periodically.",
+   "p": "But only when I'm in my element."
+  },
+  {
+   "id": 230,
+   "s": "I'd tell you a joke about pizza.",
+   "p": "But it's a little cheesy."
+  },
+  {
+   "id": 231,
+   "s": "Don't tell secrets in a cornfield.",
+   "p": "Too many ears."
+  },
+  {
+   "id": 232,
+   "s": "A ham sandwich walks into a bar and orders a beer.",
+   "p": "The bartender says, sorry, we don't serve food here."
+  },
+  {
+   "id": 233,
+   "s": "Two antennas got married.",
+   "p": "The ceremony was okay, but the reception was excellent."
+  },
+  {
+   "id": 234,
+   "s": "Two guys walk into a bar.",
+   "p": "The third one ducks."
+  },
+  {
+   "id": 235,
+   "s": "A termite walks into a bar and asks...",
+   "p": "Is the bar tender here?"
+  },
+  {
+   "id": 236,
+   "s": "A man walked into a library and asked for books about turtles.",
+   "p": "The librarian said, hard back? He said, yes, they have little heads too."
+  },
+  {
+   "id": 237,
+   "s": "Dad, did you get a haircut?",
+   "p": "No, I got them all cut."
+  },
+  {
+   "id": 238,
+   "s": "Dad, can you put my shoes on?",
+   "p": "No, I don't think they'll fit me."
+  },
+  {
+   "id": 239,
+   "s": "Dad, I'm hungry.",
+   "p": "Hi Hungry, I'm Dad."
+  },
+  {
+   "id": 240,
+   "s": "Dad, will you call me a cab?",
+   "p": "Sure, you're a cab."
+  },
+  {
+   "id": 241,
+   "s": "Dad, what does the sign say?",
+   "p": "It doesn't say anything, it's a sign."
+  },
+  {
+   "id": 242,
+   "s": "Dad, I'm cold.",
+   "p": "Go stand in the corner, it's 90 degrees."
+  },
+  {
+   "id": 243,
+   "s": "Did you hear about the guy who invented the knock-knock joke?",
+   "p": "He won the no-bell prize."
+  },
+  {
+   "id": 244,
+   "s": "Did you hear about the cheese factory that exploded in France?",
+   "p": "There was nothing left but de-brie."
+  },
+  {
+   "id": 245,
+   "s": "Did you hear about the kidnapping at school?",
+   "p": "It's fine, he woke up."
+  },
+  {
+   "id": 246,
+   "s": "Did you hear about the circus fire?",
+   "p": "It was in tents."
+  },
+  {
+   "id": 247,
+   "s": "Did you hear about the actor who fell through the floorboards?",
+   "p": "He was just going through a stage."
+  },
+  {
+   "id": 248,
+   "s": "Did you hear about the two thieves who stole a calendar?",
+   "p": "They each got six months."
+  },
+  {
+   "id": 249,
+   "s": "Did you hear the rumor about butter?",
+   "p": "Well, I'm not going to spread it."
+  },
+  {
+   "id": 250,
+   "s": "Did you hear about the guy who got hit in the head with a can of soda?",
+   "p": "He was lucky it was a soft drink."
+  },
+  {
+   "id": 251,
+   "s": "Did you hear about the new corduroy pillows?",
+   "p": "They're making headlines."
+  },
+  {
+   "id": 252,
+   "s": "Did you hear about the hungry clock?",
+   "p": "It went back four seconds."
+  },
+  {
+   "id": 253,
+   "s": "Did you hear about the mathematician who's afraid of negative numbers?",
+   "p": "He'll stop at nothing to avoid them."
+  },
+  {
+   "id": 254,
+   "s": "Did you hear about the bed that got stolen?",
+   "p": "Police are still looking for the sheets."
+  },
+  {
+   "id": 255,
+   "s": "What's the difference between a poorly dressed man on a tricycle and a well-dressed man on a bicycle?",
+   "p": "Attire."
+  },
+  {
+   "id": 256,
+   "s": "What's the leading cause of dry skin?",
+   "p": "Towels."
+  },
+  {
+   "id": 257,
+   "s": "What do you call a laughing motorcycle?",
+   "p": "A Yamahahaha."
+  },
+  {
+   "id": 258,
+   "s": "What did the traffic light say to the car?",
+   "p": "Don't look, I'm about to change."
+  },
+  {
+   "id": 259,
+   "s": "Why did the car get a flat tire?",
+   "p": "There was a fork in the road."
+  },
+  {
+   "id": 260,
+   "s": "What kind of car does an egg drive?",
+   "p": "A Yolkswagen."
+  },
+  {
+   "id": 261,
+   "s": "Where do cars go swimming?",
+   "p": "At the car pool."
+  },
+  {
+   "id": 262,
+   "s": "How do you know when a sheep is in the car?",
+   "p": "It says baaaaack up."
+  },
+  {
+   "id": 263,
+   "s": "What's the loudest pet?",
+   "p": "A trumpet."
+  },
+  {
+   "id": 264,
+   "s": "Why do cats always get their way?",
+   "p": "They are very purr-suasive."
+  },
+  {
+   "id": 265,
+   "s": "What do you call a cat that likes to bowl?",
+   "p": "An alley cat."
+  },
+  {
+   "id": 266,
+   "s": "What does a cat say when it makes a mistake?",
+   "p": "Me-ow."
+  },
+  {
+   "id": 267,
+   "s": "Why don't cats play poker in the jungle?",
+   "p": "Too many cheetahs."
+  },
+  {
+   "id": 268,
+   "s": "What do you call a cold dog?",
+   "p": "A chili dog."
+  },
+  {
+   "id": 269,
+   "s": "Why did the dog sit in the shade?",
+   "p": "Because he didn't want to be a hot dog."
+  },
+  {
+   "id": 270,
+   "s": "What do you call a dog with no legs?",
+   "p": "It doesn't matter, he's not coming."
+  },
+  {
+   "id": 271,
+   "s": "What kind of dog does a vampire have?",
+   "p": "A bloodhound."
+  },
+  {
+   "id": 272,
+   "s": "What do you call a dog that does yoga?",
+   "p": "A downward dog. Obviously."
+  },
+  {
+   "id": 273,
+   "s": "Why did the fish blush?",
+   "p": "Because it saw the ocean's bottom."
+  },
+  {
+   "id": 274,
+   "s": "What did the shark say when he ate the clownfish?",
+   "p": "This tastes a little funny."
+  },
+  {
+   "id": 275,
+   "s": "Where do fish keep their money?",
+   "p": "In the riverbank."
+  },
+  {
+   "id": 276,
+   "s": "What do you call a whale that talks too much?",
+   "p": "A blubber mouth."
+  },
+  {
+   "id": 277,
+   "s": "What did the octopus say to his girlfriend?",
+   "p": "Can I hold your hand, hand, hand, hand, hand, hand, hand, hand?"
+  },
+  {
+   "id": 278,
+   "s": "What do you call a crab that throws things?",
+   "p": "A lobster."
+  },
+  {
+   "id": 279,
+   "s": "How do you communicate with a fish?",
+   "p": "Drop it a line."
+  },
+  {
+   "id": 280,
+   "s": "What's a pirate's favorite letter?",
+   "p": "You'd think it's R, but it's the C."
+  },
+  {
+   "id": 281,
+   "s": "How much did the pirate pay for his peg and hook?",
+   "p": "An arm and a leg."
+  },
+  {
+   "id": 282,
+   "s": "Why couldn't the pirate play cards?",
+   "p": "He was sitting on the deck."
+  },
+  {
+   "id": 283,
+   "s": "What did the astronaut see on the stove?",
+   "p": "An unidentified frying object."
+  },
+  {
+   "id": 284,
+   "s": "How do astronauts eat ice cream?",
+   "p": "In floats."
+  },
+  {
+   "id": 285,
+   "s": "Why did the sun not go to college?",
+   "p": "Because it already had a million degrees."
+  },
+  {
+   "id": 286,
+   "s": "How does the solar system hold up its pants?",
+   "p": "With an asteroid belt."
+  },
+  {
+   "id": 287,
+   "s": "What did Mars say to Saturn?",
+   "p": "Give me a ring sometime."
+  },
+  {
+   "id": 288,
+   "s": "Why did the teacher wear sunglasses?",
+   "p": "Because her students were so bright."
+  },
+  {
+   "id": 289,
+   "s": "Why was the music teacher locked out?",
+   "p": "Her keys were on the piano."
+  },
+  {
+   "id": 290,
+   "s": "What's a math teacher's favorite place in New York?",
+   "p": "Times Square."
+  },
+  {
+   "id": 291,
+   "s": "Why was six afraid of seven?",
+   "p": "Because seven eight nine."
+  },
+  {
+   "id": 292,
+   "s": "Why is the obtuse triangle always upset?",
+   "p": "Because it's never right."
+  },
+  {
+   "id": 293,
+   "s": "What did the triangle say to the circle?",
+   "p": "You're pointless."
+  },
+  {
+   "id": 294,
+   "s": "Why did the student eat his homework?",
+   "p": "Because the teacher told him it was a piece of cake."
+  },
+  {
+   "id": 295,
+   "s": "What's the king of all school supplies?",
+   "p": "The ruler."
+  },
+  {
+   "id": 296,
+   "s": "Why did the clock get sent to the principal's office?",
+   "p": "It was tocking too much."
+  },
+  {
+   "id": 297,
+   "s": "What do you call a bee that lives in America?",
+   "p": "A USB."
+  },
+  {
+   "id": 298,
+   "s": "What do you call it when Batman skips church?",
+   "p": "Christian Bale."
+  },
+  {
+   "id": 299,
+   "s": "Why couldn't the toilet paper cross the road?",
+   "p": "It got stuck in a crack."
+  },
+  {
+   "id": 300,
+   "s": "What do you call a thieving alligator?",
+   "p": "A crookodile."
+  },
+  {
+   "id": 301,
+   "s": "What's an astronaut's favorite part of a computer?",
+   "p": "The space bar."
+  },
+  {
+   "id": 302,
+   "s": "Why did the light bulb fail its test?",
+   "p": "It wasn't too bright."
+  },
+  {
+   "id": 303,
+   "s": "How does a scientist freshen her breath?",
+   "p": "With experi-mints."
+  },
+  {
+   "id": 304,
+   "s": "What do you call an acid with an attitude?",
+   "p": "A-mean-oh acid."
+  },
+  {
+   "id": 305,
+   "s": "Why are chemists great at solving problems?",
+   "p": "They have all the solutions."
+  },
+  {
+   "id": 306,
+   "s": "What did the DNA say to the other DNA?",
+   "p": "Do these genes make me look fat?"
+  },
+  {
+   "id": 307,
+   "s": "How do you keep a bull from charging?",
+   "p": "Take away his credit card."
+  },
+  {
+   "id": 308,
+   "s": "Why do chicken coops only have two doors?",
+   "p": "Because if they had four, they'd be chicken sedans."
+  },
+  {
+   "id": 309,
+   "s": "Why did the chicken go to the séance?",
+   "p": "To get to the other side."
+  },
+  {
+   "id": 310,
+   "s": "What do you call a chicken staring at lettuce?",
+   "p": "Chicken Caesar salad."
+  },
+  {
+   "id": 311,
+   "s": "Why did the turkey cross the road?",
+   "p": "To prove he wasn't chicken."
+  },
+  {
+   "id": 312,
+   "s": "What do you call a reindeer with bad manners?",
+   "p": "Rude-olph."
+  },
+  {
+   "id": 313,
+   "s": "What do snowmen eat for breakfast?",
+   "p": "Frosted Flakes."
+  },
+  {
+   "id": 314,
+   "s": "What do elves learn in school?",
+   "p": "The elf-abet."
+  },
+  {
+   "id": 315,
+   "s": "Why did Santa go to music school?",
+   "p": "To improve his wrapping skills."
+  },
+  {
+   "id": 316,
+   "s": "What do you call an old snowman?",
+   "p": "Water."
+  },
+  {
+   "id": 317,
+   "s": "Why is a calendar so popular?",
+   "p": "It has a lot of dates."
+  },
+  {
+   "id": 318,
+   "s": "What did the stamp say to the envelope?",
+   "p": "Stick with me and we'll go places."
+  },
+  {
+   "id": 319,
+   "s": "What did the paper say to the pencil?",
+   "p": "Write on."
+  },
+  {
+   "id": 320,
+   "s": "What do you call a book that's about the brain?",
+   "p": "A mind reader."
+  },
+  {
+   "id": 321,
+   "s": "Why did the music note get detention?",
+   "p": "It was too sharp."
+  },
+  {
+   "id": 322,
+   "s": "How do you fix a broken tuba?",
+   "p": "With a tuba glue."
+  },
+  {
+   "id": 323,
+   "s": "What's Beethoven's favorite fruit?",
+   "p": "Ba-na-na-naaaa."
+  },
+  {
+   "id": 324,
+   "s": "What kind of music do planets like?",
+   "p": "Neptunes."
+  },
+  {
+   "id": 325,
+   "s": "What did the triangle player say when he got fired?",
+   "p": "Ding."
+  },
+  {
+   "id": 326,
+   "s": "Why don't mountains get cold?",
+   "p": "They wear snowcaps."
+  },
+  {
+   "id": 327,
+   "s": "What did the tree say to the wind?",
+   "p": "Leaf me alone."
+  },
+  {
+   "id": 328,
+   "s": "Why did the leaf go to the doctor?",
+   "p": "It was feeling green."
+  },
+  {
+   "id": 329,
+   "s": "What did the beaver say to the tree?",
+   "p": "It's been nice gnawing you."
+  },
+  {
+   "id": 330,
+   "s": "Why did the tree go to the dentist?",
+   "p": "To get a root canal."
+  },
+  {
+   "id": 331,
+   "s": "What do you call a fake stone in Ireland?",
+   "p": "A sham rock."
+  },
+  {
+   "id": 332,
+   "s": "What's the smartest insect?",
+   "p": "A spelling bee."
+  },
+  {
+   "id": 333,
+   "s": "What do you call a dentist who doesn't like tea?",
+   "p": "Denis."
+  },
+  {
+   "id": 334,
+   "s": "How do you get a farm girl to like you?",
+   "p": "A tractor."
+  },
+  {
+   "id": 335,
+   "s": "Which knight invented King Arthur's Round Table?",
+   "p": "Sir Cumference."
+  },
+  {
+   "id": 336,
+   "s": "Why did the barber win the race?",
+   "p": "He knew a shortcut."
+  },
+  {
+   "id": 337,
+   "s": "How does a lumberjack know how many trees he's cut?",
+   "p": "He keeps a log."
+  },
+  {
+   "id": 338,
+   "s": "Where do you learn to make banana splits?",
+   "p": "Sundae school."
+  },
+  {
+   "id": 339,
+   "s": "What's the best way to watch a fly fishing tournament?",
+   "p": "Live stream."
+  },
+  {
+   "id": 340,
+   "s": "What did the cupcake say to the frosting?",
+   "p": "I'd be muffin without you."
+  },
+  {
+   "id": 341,
+   "s": "Why do you never see elephants hiding in trees?",
+   "p": "Because they're really good at it."
+  },
+  {
+   "id": 342,
+   "s": "What's red and moves up and down?",
+   "p": "A tomato in an elevator."
+  },
+  {
+   "id": 343,
+   "s": "How many apples grow on a tree?",
+   "p": "All of them."
+  },
+  {
+   "id": 344,
+   "s": "Why can't dinosaurs clap?",
+   "p": "Because they're dead."
+  },
+  {
+   "id": 345,
+   "s": "What did the ghost call his mom and dad?",
+   "p": "His trans-parents."
+  },
+  {
+   "id": 346,
+   "s": "What do you call a line of men waiting to get haircuts?",
+   "p": "A barberqueue."
+  },
+  {
+   "id": 347,
+   "s": "What's the most groundbreaking invention of all time?",
+   "p": "The shovel."
+  },
+  {
+   "id": 348,
+   "s": "What did the shy pebble wish for?",
+   "p": "That she was a little boulder."
+  }
+ ]
+}

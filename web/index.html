@@ -1,0 +1,451 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover, user-scalable=no">
+<title>Dad-A-Base</title>
+<style>
+  :root {
+    --wood: #3b2618;
+    --wood-dark: #2a1a10;
+    --grain: rgba(255, 220, 170, 0.035);
+    --card: #fbf3e2;
+    --card-line: #e5d3b3;
+    --ink: #2b1d14;
+    --ink-soft: #7a6450;
+    --mustard: #e0a526;
+    --mustard-dark: #b9830f;
+    --red: #c4472f;
+    --inset-top: 0px;
+    --inset-bottom: 0px;
+  }
+  * { box-sizing: border-box; -webkit-tap-highlight-color: transparent; }
+  html, body { margin: 0; height: 100%; }
+  body {
+    background:
+      repeating-linear-gradient(90deg, var(--grain) 0 2px, transparent 2px 9px, var(--grain) 9px 10px, transparent 10px 23px),
+      linear-gradient(180deg, var(--wood) 0%, var(--wood-dark) 100%);
+    color: var(--card);
+    font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+    display: flex; flex-direction: column;
+    padding-top: var(--inset-top);
+    padding-bottom: var(--inset-bottom);
+    user-select: none; -webkit-user-select: none;
+    overflow: hidden;
+  }
+
+  header {
+    display: flex; align-items: center; gap: 12px;
+    padding: 14px 18px 6px;
+  }
+  .logo {
+    width: 44px; height: 44px; border-radius: 12px; flex: none;
+    background: var(--mustard); color: var(--wood-dark);
+    display: grid; place-items: center; font-size: 26px;
+    box-shadow: 0 2px 0 var(--mustard-dark);
+  }
+  .brand h1 { margin: 0; font: 800 22px/1.1 Georgia, "Noto Serif", serif; letter-spacing: 0.3px; }
+  .brand p { margin: 2px 0 0; font-size: 13px; color: #d9c3a3; }
+  .icon-btn {
+    margin-left: auto; width: 44px; height: 44px; border: 0; border-radius: 50%;
+    background: rgba(255, 255, 255, 0.08); color: var(--card); font-size: 20px;
+  }
+
+  main { flex: 1; min-height: 0; position: relative; }
+  .view { position: absolute; inset: 0; display: flex; flex-direction: column; padding: 10px 18px 0; }
+  .view[hidden] { display: none; }
+
+  /* The joke card: an index card from Dad's recipe box */
+  .card-wrap { flex: 1; min-height: 0; display: flex; align-items: center; justify-content: center; padding: 8px 0; }
+  .card {
+    width: 100%; max-width: 520px; max-height: 100%; overflow-y: auto;
+    background:
+      repeating-linear-gradient(180deg, transparent 0 33px, var(--card-line) 33px 34px) 0 58px / 100% calc(100% - 58px) no-repeat,
+      var(--card);
+    color: var(--ink);
+    border-radius: 6px;
+    padding: 18px 22px 26px;
+    box-shadow: 0 14px 30px rgba(0, 0, 0, 0.45), 0 2px 0 #d8c39c;
+    position: relative;
+    transition: transform 0.28s ease, opacity 0.28s ease;
+    touch-action: pan-y;
+  }
+  .card::before { /* the red margin rule */
+    content: ""; position: absolute; left: 0; right: 0; top: 50px; height: 2px; background: #e28b7a; opacity: 0.7;
+  }
+  .card.out-left { transform: translateX(-120%) rotate(-8deg); opacity: 0; }
+  .card.in-right { transform: translateX(120%) rotate(8deg); opacity: 0; transition: none; }
+  .card-meta { display: flex; justify-content: space-between; align-items: center; height: 28px; margin-bottom: 18px; font-size: 13px; color: var(--ink-soft); font-weight: 600; letter-spacing: 0.5px; text-transform: uppercase; }
+  .new-tag { background: var(--red); color: #fff; padding: 2px 8px; border-radius: 99px; font-size: 11px; }
+  .setup { font: 600 26px/34px Georgia, "Noto Serif", serif; margin: 0; }
+  .punch {
+    font: italic 700 25px/34px Georgia, "Noto Serif", serif; color: var(--red);
+    margin: 34px 0 0; min-height: 34px;
+    opacity: 0; transform: translateY(8px); transition: opacity 0.35s ease, transform 0.35s ease;
+  }
+  .punch.show { opacity: 1; transform: none; }
+
+  .reveal {
+    display: block; width: 100%; max-width: 520px; margin: 0 auto 12px;
+    border: 0; border-radius: 16px; padding: 18px;
+    background: var(--mustard); color: var(--wood-dark);
+    font: 800 20px/1 system-ui, sans-serif; letter-spacing: 0.3px;
+    box-shadow: 0 4px 0 var(--mustard-dark);
+  }
+  .reveal:active { transform: translateY(3px); box-shadow: 0 1px 0 var(--mustard-dark); }
+
+  .actions { display: flex; gap: 10px; max-width: 520px; width: 100%; margin: 0 auto 14px; }
+  .actions button {
+    flex: 1; border: 0; border-radius: 14px; padding: 12px 6px;
+    background: rgba(255, 255, 255, 0.09); color: var(--card);
+    font: 600 14px/1.2 system-ui, sans-serif; display: flex; flex-direction: column; align-items: center; gap: 4px;
+  }
+  .actions button .ico { font-size: 22px; line-height: 1; }
+  .actions button.on { background: rgba(224, 165, 38, 0.22); color: #ffd36e; }
+  .actions button:active { background: rgba(255, 255, 255, 0.18); }
+
+  /* Saved jokes */
+  .saved-list { flex: 1; overflow-y: auto; padding-bottom: 14px; }
+  .saved-item { background: var(--card); color: var(--ink); border-radius: 8px; padding: 14px 16px; margin-bottom: 10px; display: flex; gap: 10px; }
+  .saved-item .txt { flex: 1; }
+  .saved-item .s { font: 600 17px/1.35 Georgia, "Noto Serif", serif; }
+  .saved-item .p { font: italic 700 16px/1.35 Georgia, "Noto Serif", serif; color: var(--red); margin-top: 6px; }
+  .saved-item button { border: 0; background: none; font-size: 20px; color: var(--ink-soft); padding: 4px; align-self: flex-start; }
+  .empty { text-align: center; color: #d9c3a3; margin-top: 18vh; font-size: 17px; line-height: 1.5; padding: 0 20px; }
+  .empty .big { font-size: 48px; display: block; margin-bottom: 8px; }
+
+  nav { display: flex; background: rgba(0, 0, 0, 0.28); }
+  nav button {
+    flex: 1; border: 0; background: none; color: #bfa688; padding: 10px 0 12px;
+    font: 600 13px/1 system-ui, sans-serif; display: flex; flex-direction: column; align-items: center; gap: 5px;
+  }
+  nav button .ico { font-size: 22px; }
+  nav button[aria-selected="true"] { color: var(--mustard); }
+
+  .toast {
+    position: fixed; left: 50%; bottom: calc(var(--inset-bottom) + 84px); transform: translate(-50%, 20px);
+    background: var(--card); color: var(--ink); font-weight: 700; padding: 10px 18px; border-radius: 99px;
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.4); opacity: 0; pointer-events: none; transition: opacity 0.25s, transform 0.25s; white-space: nowrap;
+  }
+  .toast.show { opacity: 1; transform: translate(-50%, 0); }
+
+  @media (max-height: 640px) {
+    .setup { font-size: 22px; line-height: 30px; }
+    .punch { font-size: 21px; line-height: 30px; margin-top: 30px; }
+    .card { background: repeating-linear-gradient(180deg, transparent 0 29px, var(--card-line) 29px 30px) 0 58px / 100% calc(100% - 58px) no-repeat, var(--card); }
+  }
+</style>
+</head>
+<body>
+<header>
+  <div class="logo" aria-hidden="true">🥸</div>
+  <div class="brand">
+    <h1>Dad-A-Base</h1>
+    <p id="count">Loading jokes…</p>
+  </div>
+  <button class="icon-btn" id="sound" aria-label="Rimshot sound on">🥁</button>
+</header>
+
+<main>
+  <section class="view" id="view-jokes">
+    <div class="card-wrap">
+      <article class="card" id="card">
+        <div class="card-meta"><span id="num"></span><span id="newtag"></span></div>
+        <p class="setup" id="setup"></p>
+        <p class="punch" id="punch"></p>
+      </article>
+    </div>
+    <button class="reveal" id="reveal">Tell me!</button>
+    <div class="actions">
+      <button id="save"><span class="ico">☆</span><span>Save</span></button>
+      <button id="share"><span class="ico">📤</span><span>Share</span></button>
+      <button id="groan"><span class="ico">😩</span><span id="groan-label">Groan</span></button>
+    </div>
+  </section>
+
+  <section class="view" id="view-saved" hidden>
+    <div class="saved-list" id="saved-list"></div>
+  </section>
+</main>
+
+<nav role="tablist">
+  <button role="tab" aria-selected="true" data-view="jokes"><span class="ico">🃏</span>Jokes</button>
+  <button role="tab" aria-selected="false" data-view="saved"><span class="ico">⭐</span><span id="saved-tab">Saved</span></button>
+</nav>
+<div class="toast" id="toast"></div>
+
+<script src="jokes.js"></script>
+<script>
+(() => {
+  'use strict';
+  // The live joke feed. New jokes are added here weekly; the app merges them in on launch.
+  const FEED_URL = 'https://jrakestraw.github.io/dad-a-base/jokes.json';
+  const KEY = { feed: 'dab.feed', deck: 'dab.deck', seen: 'dab.seen', saved: 'dab.saved', groans: 'dab.groans', sound: 'dab.sound', current: 'dab.current', feedUrl: 'dab.feedUrl' };
+
+  const $ = (id) => document.getElementById(id);
+  const load = (k, fallback) => { try { const v = localStorage.getItem(k); return v == null ? fallback : JSON.parse(v); } catch (e) { return fallback; } };
+  const store = (k, v) => { try { localStorage.setItem(k, JSON.stringify(v)); } catch (e) { /* storage full or blocked: the app still works this session */ } };
+
+  // ---- Jokes: bundled list + whatever the feed has added since -------------------------------------------
+  const valid = (j) => j && Number.isInteger(j.id) && typeof j.s === 'string' && typeof j.p === 'string' && j.s.trim() && j.p.trim();
+  const byId = new Map();
+  function addJokes(list) {
+    const added = [];
+    for (const j of list || []) {
+      if (!valid(j)) continue;
+      if (!byId.has(j.id)) added.push(j.id);
+      byId.set(j.id, { id: j.id, s: j.s, p: j.p });
+    }
+    return added;
+  }
+  addJokes((window.DAD_JOKES && window.DAD_JOKES.jokes) || []);
+  addJokes(load(KEY.feed, []));
+
+  let seen = new Set(load(KEY.seen, []));       // every id the user has been dealt, so feed additions can be flagged "new"
+  let saved = load(KEY.saved, []);              // ids, newest first
+  let groans = load(KEY.groans, 0);
+  let sound = load(KEY.sound, true);
+  let deck = load(KEY.deck, []).filter((id) => byId.has(id)); // ids still to come, no repeats until all are told
+  let current = load(KEY.current, null);
+  if (!byId.has(current)) current = null;
+  if (seen.size === 0) seen = new Set(byId.keys()); // first launch: everything bundled counts as already known
+
+  function shuffle(a) { for (let i = a.length - 1; i > 0; i--) { const k = Math.floor(Math.random() * (i + 1)); [a[i], a[k]] = [a[k], a[i]]; } return a; }
+  function refillDeck() {
+    deck = shuffle([...byId.keys()].filter((id) => id !== current));
+    store(KEY.deck, deck);
+  }
+  /** Brand-new jokes jump the line so they show up next. */
+  function queueNew(ids) {
+    const fresh = ids.filter((id) => id !== current);
+    deck = shuffle(fresh).concat(deck.filter((id) => !fresh.includes(id)));
+    store(KEY.deck, deck);
+  }
+  // Jokes the user has never been dealt (e.g. the feed added them while the app was closed) go first.
+  const unseenInLibrary = [...byId.keys()].filter((id) => !seen.has(id) && !deck.includes(id));
+  if (deck.length === 0) refillDeck();
+  if (unseenInLibrary.length) queueNew(unseenInLibrary);
+
+  // ---- Rendering ------------------------------------------------------------------------------------------
+  let revealed = false;
+  function updateCount() {
+    const n = byId.size;
+    $('count').textContent = `${n.toLocaleString()} dad jokes on file`;
+    $('saved-tab').textContent = saved.length ? `Saved (${saved.length})` : 'Saved';
+  }
+  function showJoke(id) {
+    current = id;
+    store(KEY.current, id);
+    const j = byId.get(id);
+    const isNew = !seen.has(id);
+    seen.add(id);
+    store(KEY.seen, [...seen]);
+    $('num').textContent = `Joke #${id}`;
+    $('newtag').innerHTML = isNew ? '<span class="new-tag">NEW</span>' : '';
+    $('setup').textContent = j.s;
+    $('punch').textContent = j.p;
+    $('punch').classList.remove('show');
+    revealed = false;
+    $('reveal').textContent = 'Tell me!';
+    const isSaved = saved.includes(id);
+    $('save').classList.toggle('on', isSaved);
+    $('save').querySelector('.ico').textContent = isSaved ? '★' : '☆';
+    $('save').lastElementChild.textContent = isSaved ? 'Saved' : 'Save';
+    $('card').scrollTop = 0;
+  }
+  function nextJoke() {
+    if (deck.length === 0) refillDeck();
+    const id = deck.shift();
+    store(KEY.deck, deck);
+    const card = $('card');
+    card.classList.add('out-left');
+    setTimeout(() => {
+      showJoke(id);
+      card.classList.remove('out-left');
+      card.classList.add('in-right');
+      void card.offsetWidth; // restart the transition from the right-hand side
+      card.classList.remove('in-right');
+    }, 220);
+  }
+  function reveal() {
+    if (revealed) { nextJoke(); return; }
+    revealed = true;
+    $('punch').classList.add('show');
+    $('reveal').textContent = 'Another one!';
+    if (sound) rimshot();
+  }
+
+  // ---- Ba-dum-tss, synthesized so the app needs no audio files -----------------------------------------
+  let ctx = null;
+  function noise(len) {
+    const b = ctx.createBuffer(1, Math.floor(ctx.sampleRate * len), ctx.sampleRate);
+    const d = b.getChannelData(0);
+    for (let i = 0; i < d.length; i++) d[i] = Math.random() * 2 - 1;
+    const src = ctx.createBufferSource(); src.buffer = b; return src;
+  }
+  function hit(t, kind) {
+    const out = ctx.createGain(); out.connect(ctx.destination);
+    if (kind === 'drum') {
+      const o = ctx.createOscillator(); o.type = 'triangle';
+      o.frequency.setValueAtTime(190, t); o.frequency.exponentialRampToValueAtTime(110, t + 0.12);
+      const og = ctx.createGain(); og.gain.setValueAtTime(0.5, t); og.gain.exponentialRampToValueAtTime(0.001, t + 0.15);
+      o.connect(og).connect(out); o.start(t); o.stop(t + 0.16);
+      const n = noise(0.18); const f = ctx.createBiquadFilter(); f.type = 'bandpass'; f.frequency.value = 1800;
+      const ng = ctx.createGain(); ng.gain.setValueAtTime(0.35, t); ng.gain.exponentialRampToValueAtTime(0.001, t + 0.14);
+      n.connect(f).connect(ng).connect(out); n.start(t);
+    } else {
+      const n = noise(1.4); const f = ctx.createBiquadFilter(); f.type = 'highpass'; f.frequency.value = 6500;
+      const ng = ctx.createGain(); ng.gain.setValueAtTime(0.0001, t); ng.gain.exponentialRampToValueAtTime(0.32, t + 0.008); ng.gain.exponentialRampToValueAtTime(0.001, t + 1.3);
+      n.connect(f).connect(ng).connect(out); n.start(t);
+    }
+  }
+  function rimshot() {
+    try {
+      ctx = ctx || new (window.AudioContext || window.webkitAudioContext)();
+      if (ctx.state === 'suspended') ctx.resume();
+      const t = ctx.currentTime + 0.25; // a beat after the punchline lands
+      hit(t, 'drum'); hit(t + 0.17, 'drum'); hit(t + 0.36, 'cymbal');
+    } catch (e) { /* no audio available: the joke still lands */ }
+  }
+
+  // ---- Saved jokes ------------------------------------------------------------------------------------------
+  function toggleSave() {
+    if (current == null) return;
+    const i = saved.indexOf(current);
+    if (i >= 0) saved.splice(i, 1); else { saved.unshift(current); toast('Saved for later ★'); }
+    store(KEY.saved, saved);
+    showJokeState();
+  }
+  function showJokeState() {
+    const isSaved = saved.includes(current);
+    $('save').classList.toggle('on', isSaved);
+    $('save').querySelector('.ico').textContent = isSaved ? '★' : '☆';
+    $('save').lastElementChild.textContent = isSaved ? 'Saved' : 'Save';
+    updateCount();
+  }
+  function renderSaved() {
+    const list = $('saved-list');
+    list.textContent = '';
+    const ids = saved.filter((id) => byId.has(id));
+    if (!ids.length) {
+      list.innerHTML = '<div class="empty"><span class="big">☆</span>No saved jokes yet.<br>Tap Save on a good one so it\'s ready for the next family dinner.</div>';
+      return;
+    }
+    for (const id of ids) {
+      const j = byId.get(id);
+      const row = document.createElement('div'); row.className = 'saved-item';
+      const txt = document.createElement('div'); txt.className = 'txt';
+      const s = document.createElement('div'); s.className = 's'; s.textContent = j.s;
+      const p = document.createElement('div'); p.className = 'p'; p.textContent = j.p;
+      txt.append(s, p);
+      const share = document.createElement('button'); share.textContent = '📤'; share.setAttribute('aria-label', 'Share this joke');
+      share.onclick = () => shareJoke(j);
+      const del = document.createElement('button'); del.textContent = '✕'; del.setAttribute('aria-label', 'Remove from saved');
+      del.onclick = () => { saved = saved.filter((x) => x !== id); store(KEY.saved, saved); renderSaved(); showJokeState(); };
+      row.append(txt, share, del);
+      list.append(row);
+    }
+  }
+
+  // ---- Share, groan, toast ----------------------------------------------------------------------------------
+  function shareJoke(j) {
+    const text = `${j.s}\n\n${j.p}\n\n— from Dad-A-Base 🥸`;
+    if (window.DadBridge && window.DadBridge.share) { window.DadBridge.share(text); return; }
+    if (navigator.share) { navigator.share({ text }).catch(() => {}); return; }
+    if (navigator.clipboard) navigator.clipboard.writeText(text).then(() => toast('Copied to clipboard'), () => {});
+  }
+  function groan() {
+    groans++;
+    store(KEY.groans, groans);
+    $('groan-label').textContent = `${groans.toLocaleString()} groan${groans === 1 ? '' : 's'}`;
+    const ico = $('groan').querySelector('.ico');
+    ico.animate([{ transform: 'scale(1)' }, { transform: 'scale(1.5) rotate(-12deg)' }, { transform: 'scale(1)' }], { duration: 350 });
+  }
+  let toastTimer = 0;
+  function toast(msg) {
+    const t = $('toast'); t.textContent = msg; t.classList.add('show');
+    clearTimeout(toastTimer); toastTimer = setTimeout(() => t.classList.remove('show'), 2400);
+  }
+
+  // ---- Tabs and Android back ----------------------------------------------------------------------------------
+  let view = 'jokes';
+  function setView(v) {
+    view = v;
+    for (const b of document.querySelectorAll('nav button')) b.setAttribute('aria-selected', String(b.dataset.view === v));
+    $('view-jokes').hidden = v !== 'jokes';
+    $('view-saved').hidden = v !== 'saved';
+    if (v === 'saved') renderSaved();
+  }
+  window.DadABase = {
+    /** Called by the Android back gesture; true means the page handled it. */
+    back() { if (view !== 'jokes') { setView('jokes'); return true; } return false; },
+  };
+
+  // ---- Live feed: pull new jokes without reinstalling ---------------------------------------------------------
+  async function syncFeed() {
+    const url = load(KEY.feedUrl, FEED_URL);
+    try {
+      const ctl = new AbortController();
+      const timer = setTimeout(() => ctl.abort(), 10000);
+      const res = await fetch(url, { cache: 'no-store', signal: ctl.signal });
+      clearTimeout(timer);
+      if (!res.ok) return;
+      const data = await res.json();
+      const list = Array.isArray(data) ? data : data && data.jokes;
+      if (!Array.isArray(list)) return;
+      const clean = list.filter(valid).map((j) => ({ id: j.id, s: j.s, p: j.p }));
+      if (!clean.length) return;
+      const added = addJokes(clean);
+      // Keep only the jokes the APK doesn't already carry, so storage stays small.
+      const bundled = new Set(((window.DAD_JOKES && window.DAD_JOKES.jokes) || []).map((j) => j.id));
+      store(KEY.feed, clean.filter((j) => !bundled.has(j.id)));
+      updateCount();
+      const unseen = added.filter((id) => !seen.has(id));
+      if (unseen.length) {
+        queueNew(unseen);
+        toast(`${unseen.length} new dad joke${unseen.length === 1 ? '' : 's'} just arrived! 🎉`);
+      }
+    } catch (e) { /* offline or feed down: the jokes already on the phone carry on */ }
+  }
+
+  // ---- Wire up ----------------------------------------------------------------------------------------------
+  $('reveal').onclick = reveal;
+  $('card').onclick = () => { if (!revealed) reveal(); };
+  $('save').onclick = toggleSave;
+  $('share').onclick = () => current != null && shareJoke(byId.get(current));
+  $('groan').onclick = groan;
+  $('sound').onclick = () => {
+    sound = !sound; store(KEY.sound, sound);
+    $('sound').textContent = sound ? '🥁' : '🔇';
+    $('sound').setAttribute('aria-label', sound ? 'Rimshot sound on' : 'Rimshot sound off');
+    toast(sound ? 'Ba-dum-tss is on' : 'Rimshot muted');
+  };
+  for (const b of document.querySelectorAll('nav button')) b.onclick = () => setView(b.dataset.view);
+
+  // Swipe left on the card for the next joke
+  let x0 = null, y0 = null;
+  $('card').addEventListener('touchstart', (e) => { x0 = e.touches[0].clientX; y0 = e.touches[0].clientY; }, { passive: true });
+  $('card').addEventListener('touchend', (e) => {
+    if (x0 == null) return;
+    const dx = e.changedTouches[0].clientX - x0, dy = e.changedTouches[0].clientY - y0;
+    x0 = null;
+    if (dx < -60 && Math.abs(dx) > Math.abs(dy) * 1.5) nextJoke();
+  });
+
+  $('sound').textContent = sound ? '🥁' : '🔇';
+  if (groans) $('groan-label').textContent = `${groans.toLocaleString()} groan${groans === 1 ? '' : 's'}`;
+  updateCount();
+  if (byId.size === 0) {
+    // Only possible if jokes.js failed to load and the feed was never reached
+    $('setup').textContent = 'The joke file is missing. Connect to the internet and reopen the app.';
+    $('reveal').hidden = true;
+    syncFeed().then(() => { if (byId.size) location.reload(); });
+    return;
+  }
+  if (current == null) { if (deck.length === 0) refillDeck(); current = deck.shift(); store(KEY.deck, deck); }
+  showJoke(current);
+  syncFeed();
+})();
+</script>
+</body>
+</html>
