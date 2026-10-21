@@ -1,5 +1,5 @@
 {
- "version": 1,
+ "version": 2,
  "updated": "2026-10-21",
  "jokes": [
   {
@@ -1741,6 +1741,131 @@
    "id": 348,
    "s": "What did the shy pebble wish for?",
    "p": "That she was a little boulder."
+  },
+  {
+   "id": 349,
+   "s": "What did the waffle say to the syrup?",
+   "p": "I love you a waffle lot."
+  },
+  {
+   "id": 350,
+   "s": "What do you call a cow that won't give milk?",
+   "p": "A milk dud."
+  },
+  {
+   "id": 351,
+   "s": "What do you call a dog that solves mysteries?",
+   "p": "Sherlock Bones."
+  },
+  {
+   "id": 352,
+   "s": "Why did the owl throw a party?",
+   "p": "It didn't want to be owl by itself."
+  },
+  {
+   "id": 353,
+   "s": "What do you call a pony with a sore throat?",
+   "p": "A little hoarse."
+  },
+  {
+   "id": 354,
+   "s": "Why are giraffes so slow to apologize?",
+   "p": "It takes them a long time to swallow their pride."
+  },
+  {
+   "id": 355,
+   "s": "Why was the electrician so good at his job?",
+   "p": "He really knew how to conduct himself."
+  },
+  {
+   "id": 356,
+   "s": "What did the plumber say to the singer?",
+   "p": "Nice pipes."
+  },
+  {
+   "id": 357,
+   "s": "Why did the kid do his homework on an airplane?",
+   "p": "He wanted a higher education."
+  },
+  {
+   "id": 358,
+   "s": "What's a math teacher's favorite dessert?",
+   "p": "Pi."
+  },
+  {
+   "id": 359,
+   "s": "Why are bowling alleys so quiet?",
+   "p": "You can hear a pin drop."
+  },
+  {
+   "id": 360,
+   "s": "Why is tennis such a noisy sport?",
+   "p": "Everyone raises a racket."
+  },
+  {
+   "id": 361,
+   "s": "A neutron walks into a shop and asks how much a soda costs.",
+   "p": "The clerk says, for you, no charge."
+  },
+  {
+   "id": 362,
+   "s": "What did the thermometer say to the graduated cylinder?",
+   "p": "You may have graduated, but I have more degrees."
+  },
+  {
+   "id": 363,
+   "s": "What's a tornado's favorite game?",
+   "p": "Twister."
+  },
+  {
+   "id": 364,
+   "s": "What did one lightning bolt say to the other?",
+   "p": "You're shocking."
+  },
+  {
+   "id": 365,
+   "s": "What do you call a turkey the day after Thanksgiving?",
+   "p": "Lucky."
+  },
+  {
+   "id": 366,
+   "s": "What's a pumpkin's favorite sport?",
+   "p": "Squash."
+  },
+  {
+   "id": 367,
+   "s": "What did the blanket say to the bed?",
+   "p": "Don't worry, I've got you covered."
+  },
+  {
+   "id": 368,
+   "s": "Why did the clock go on vacation?",
+   "p": "It needed to unwind."
+  },
+  {
+   "id": 369,
+   "s": "Why do refrigerators make great friends?",
+   "p": "They're so cool."
+  },
+  {
+   "id": 370,
+   "s": "Why did the airplane get sent to its room?",
+   "p": "Bad altitude."
+  },
+  {
+   "id": 371,
+   "s": "What kind of room has no doors or windows?",
+   "p": "A mushroom."
+  },
+  {
+   "id": 372,
+   "s": "Why couldn't the string quartet find their composer?",
+   "p": "He was Haydn."
+  },
+  {
+   "id": 373,
+   "s": "What's a skeleton's favorite instrument?",
+   "p": "The trom-bone."
   }
  ]
 }
