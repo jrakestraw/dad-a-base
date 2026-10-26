@@ -1,6 +1,6 @@
 {
- "version": 2,
- "updated": "2026-10-21",
+ "version": 3,
+ "updated": "2026-10-26",
  "jokes": [
   {
    "id": 1,
@@ -1866,6 +1866,131 @@
    "id": 373,
    "s": "What's a skeleton's favorite instrument?",
    "p": "The trom-bone."
+  },
+  {
+   "id": 374,
+   "s": "Why did the pillow go to therapy?",
+   "p": "It was feeling down."
+  },
+  {
+   "id": 375,
+   "s": "Why don't basketball players go on vacation?",
+   "p": "They'd get called for traveling."
+  },
+  {
+   "id": 376,
+   "s": "Why are ghosts such bad liars?",
+   "p": "You can see right through them."
+  },
+  {
+   "id": 377,
+   "s": "What do you call a duck that gets all A's?",
+   "p": "A wise quacker."
+  },
+  {
+   "id": 378,
+   "s": "What does a house wear?",
+   "p": "Address."
+  },
+  {
+   "id": 379,
+   "s": "What kind of tree fits in your hand?",
+   "p": "A palm tree."
+  },
+  {
+   "id": 380,
+   "s": "Why did the cow cross the road?",
+   "p": "To get to the udder side."
+  },
+  {
+   "id": 381,
+   "s": "What do you call a rabbit with fleas?",
+   "p": "Bugs Bunny."
+  },
+  {
+   "id": 382,
+   "s": "What did one volcano say to the other volcano?",
+   "p": "I lava you."
+  },
+  {
+   "id": 383,
+   "s": "Why did the kid throw the butter out the window?",
+   "p": "To see a butterfly."
+  },
+  {
+   "id": 384,
+   "s": "What did the sushi say to the bee?",
+   "p": "Wasabi!"
+  },
+  {
+   "id": 385,
+   "s": "What kind of music do balloons hate?",
+   "p": "Pop music."
+  },
+  {
+   "id": 386,
+   "s": "What do you call a musician with problems?",
+   "p": "A trebled man."
+  },
+  {
+   "id": 387,
+   "s": "What happens when it rains cats and dogs?",
+   "p": "You might step in a poodle."
+  },
+  {
+   "id": 388,
+   "s": "What do you call a train that sneezes?",
+   "p": "An achoo-choo train."
+  },
+  {
+   "id": 389,
+   "s": "Where do bees go on vacation?",
+   "p": "Stingapore."
+  },
+  {
+   "id": 390,
+   "s": "What should you pack for a trip to the desert?",
+   "p": "A thirst-aid kit."
+  },
+  {
+   "id": 391,
+   "s": "What do you call a dinosaur that crashes his car?",
+   "p": "Tyrannosaurus Wrecks."
+  },
+  {
+   "id": 392,
+   "s": "Why do firefighters wear red suspenders?",
+   "p": "To keep their pants up."
+  },
+  {
+   "id": 393,
+   "s": "What do you call a sleeping pizza?",
+   "p": "A piZZZa."
+  },
+  {
+   "id": 394,
+   "s": "What do you call a bear with no ears?",
+   "p": "B."
+  },
+  {
+   "id": 395,
+   "s": "Why did the soccer ball quit the team?",
+   "p": "It was tired of getting kicked around."
+  },
+  {
+   "id": 396,
+   "s": "What is a ghost's favorite dessert?",
+   "p": "I scream."
+  },
+  {
+   "id": 397,
+   "s": "Why are Christmas trees so bad at knitting?",
+   "p": "They keep dropping their needles."
+  },
+  {
+   "id": 398,
+   "s": "What kind of key opens a banana?",
+   "p": "A monkey."
   }
  ]
 }
