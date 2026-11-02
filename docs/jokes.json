@@ -1,6 +1,6 @@
 {
- "version": 3,
- "updated": "2026-10-26",
+ "version": 4,
+ "updated": "2026-11-02",
  "jokes": [
   {
    "id": 1,
@@ -1991,6 +1991,131 @@
    "id": 398,
    "s": "What kind of key opens a banana?",
    "p": "A monkey."
+  },
+  {
+   "id": 399,
+   "s": "Why did the broom get a promotion?",
+   "p": "It swept the competition."
+  },
+  {
+   "id": 400,
+   "s": "What do you call a cow in an earthquake?",
+   "p": "A milkshake."
+  },
+  {
+   "id": 401,
+   "s": "What's a snake's favorite school subject?",
+   "p": "Hiss-tory."
+  },
+  {
+   "id": 402,
+   "s": "What do you call a dinosaur that never gives up?",
+   "p": "A try-ceratops."
+  },
+  {
+   "id": 403,
+   "s": "Why did the baseball player get in trouble?",
+   "p": "He got caught stealing second."
+  },
+  {
+   "id": 404,
+   "s": "Why didn't the photon check any bags at the airport?",
+   "p": "It was traveling light."
+  },
+  {
+   "id": 405,
+   "s": "What does a cloud do when it's itchy?",
+   "p": "It finds the nearest sky-scraper."
+  },
+  {
+   "id": 406,
+   "s": "What do you call a really big pumpkin?",
+   "p": "A plumpkin."
+  },
+  {
+   "id": 407,
+   "s": "What did the sink say to the leaky faucet?",
+   "p": "You're such a drip."
+  },
+  {
+   "id": 408,
+   "s": "Where do pencils go on vacation?",
+   "p": "Pencil-vania."
+  },
+  {
+   "id": 409,
+   "s": "Why did the drum take a nap?",
+   "p": "It was beat."
+  },
+  {
+   "id": 410,
+   "s": "What did the pizza say to the pepperoni?",
+   "p": "I never sausage a beautiful face."
+  },
+  {
+   "id": 411,
+   "s": "What do you call a sad cup of coffee?",
+   "p": "Depresso."
+  },
+  {
+   "id": 412,
+   "s": "Why do hummingbirds hum?",
+   "p": "Because they forgot the words."
+  },
+  {
+   "id": 413,
+   "s": "What's a cat's favorite color?",
+   "p": "Purr-ple."
+  },
+  {
+   "id": 414,
+   "s": "Why did the snail paint a big S on his car?",
+   "p": "So people would say, look at that S car go."
+  },
+  {
+   "id": 415,
+   "s": "How do farmers make crop circles?",
+   "p": "With a pro-tractor."
+  },
+  {
+   "id": 416,
+   "s": "What did one magnet say to the other magnet?",
+   "p": "I find you very attractive."
+  },
+  {
+   "id": 417,
+   "s": "How does a snowman get around town?",
+   "p": "He rides an icicle."
+  },
+  {
+   "id": 418,
+   "s": "What do you call a number that can't sit still?",
+   "p": "A roamin' numeral."
+  },
+  {
+   "id": 419,
+   "s": "What do you call Santa's little helpers?",
+   "p": "Subordinate clauses."
+  },
+  {
+   "id": 420,
+   "s": "Why did the gardener plant light bulbs?",
+   "p": "She wanted to grow a power plant."
+  },
+  {
+   "id": 421,
+   "s": "Why did the yogurt go to the art museum?",
+   "p": "Because it was cultured."
+  },
+  {
+   "id": 422,
+   "s": "What do you call a sheep covered in chocolate?",
+   "p": "A candy baa."
+  },
+  {
+   "id": 423,
+   "s": "What's a runner's favorite school subject?",
+   "p": "Jog-raphy."
   }
  ]
 }
