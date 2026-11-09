@@ -1,6 +1,6 @@
 {
- "version": 4,
- "updated": "2026-11-02",
+ "version": 5,
+ "updated": "2026-11-09",
  "jokes": [
   {
    "id": 1,
@@ -2116,6 +2116,131 @@
    "id": 423,
    "s": "What's a runner's favorite school subject?",
    "p": "Jog-raphy."
+  },
+  {
+   "id": 424,
+   "s": "Why did the jelly bean go to school?",
+   "p": "It wanted to be a smartie."
+  },
+  {
+   "id": 425,
+   "s": "What do you get when you cross a cat with a lemon?",
+   "p": "A sourpuss."
+  },
+  {
+   "id": 426,
+   "s": "Why did the teddy bear skip dessert?",
+   "p": "It was already stuffed."
+  },
+  {
+   "id": 427,
+   "s": "What does a spider bride wear?",
+   "p": "A webbing dress."
+  },
+  {
+   "id": 428,
+   "s": "What do you call a fish that fixes pianos?",
+   "p": "A piano tuna."
+  },
+  {
+   "id": 429,
+   "s": "What did the mayonnaise say to the refrigerator?",
+   "p": "Close the door, I'm dressing."
+  },
+  {
+   "id": 430,
+   "s": "What kind of tree is good at math?",
+   "p": "A geometree."
+  },
+  {
+   "id": 431,
+   "s": "Where do sheep go on vacation?",
+   "p": "The Baa-hamas."
+  },
+  {
+   "id": 432,
+   "s": "Why are fish terrible at tennis?",
+   "p": "They won't go near the net."
+  },
+  {
+   "id": 433,
+   "s": "Why did the ballerina quit?",
+   "p": "It was tutu hard."
+  },
+  {
+   "id": 434,
+   "s": "One atom says to another, I think I lost an electron.",
+   "p": "Are you sure? Yes, I'm positive."
+  },
+  {
+   "id": 435,
+   "s": "Why did the germ cross the microscope?",
+   "p": "To get to the other slide."
+  },
+  {
+   "id": 436,
+   "s": "How do you know the moon is broke?",
+   "p": "It's down to its last quarter."
+  },
+  {
+   "id": 437,
+   "s": "What do you call it when it rains chickens?",
+   "p": "Fowl weather."
+  },
+  {
+   "id": 438,
+   "s": "What did the raindrop say to the other two raindrops?",
+   "p": "Two's company, three's a cloud."
+  },
+  {
+   "id": 439,
+   "s": "What do you get when you divide a pumpkin's circumference by its diameter?",
+   "p": "Pumpkin pi."
+  },
+  {
+   "id": 440,
+   "s": "What does a TV want for New Year's?",
+   "p": "A better resolution."
+  },
+  {
+   "id": 441,
+   "s": "What did one firework say to the other?",
+   "p": "My pop is bigger than your pop."
+  },
+  {
+   "id": 442,
+   "s": "What did the sock say to the foot?",
+   "p": "You're putting me on."
+  },
+  {
+   "id": 443,
+   "s": "Why did the toaster call in sick?",
+   "p": "It was burned out."
+  },
+  {
+   "id": 444,
+   "s": "Why was the watchmaker so relaxed?",
+   "p": "He had time on his hands."
+  },
+  {
+   "id": 445,
+   "s": "Why did the glue get an A in class?",
+   "p": "It stuck to the subject."
+  },
+  {
+   "id": 446,
+   "s": "Why did the pie go to the dentist?",
+   "p": "It needed a filling."
+  },
+  {
+   "id": 447,
+   "s": "How do you make a band stand?",
+   "p": "Take away their chairs."
+  },
+  {
+   "id": 448,
+   "s": "What do you get when you drop a piano down a mine shaft?",
+   "p": "A-flat minor."
   }
  ]
 }
