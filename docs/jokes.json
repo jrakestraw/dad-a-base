@@ -1,6 +1,6 @@
 {
- "version": 5,
- "updated": "2026-11-09",
+ "version": 6,
+ "updated": "2026-11-16",
  "jokes": [
   {
    "id": 1,
@@ -2241,6 +2241,131 @@
    "id": 448,
    "s": "What do you get when you drop a piano down a mine shaft?",
    "p": "A-flat minor."
+  },
+  {
+   "id": 449,
+   "s": "What do you call a cow that tells jokes?",
+   "p": "A laughing stock."
+  },
+  {
+   "id": 450,
+   "s": "What do you call a lazy spud?",
+   "p": "A couch potato."
+  },
+  {
+   "id": 451,
+   "s": "Why are fish so easy to weigh?",
+   "p": "They have their own scales."
+  },
+  {
+   "id": 452,
+   "s": "What's a frog's favorite drink?",
+   "p": "Croak-a-Cola."
+  },
+  {
+   "id": 453,
+   "s": "What's a cat's favorite dessert?",
+   "p": "Mice cream."
+  },
+  {
+   "id": 454,
+   "s": "Why was the robot so tired after its road trip?",
+   "p": "It had a hard drive."
+  },
+  {
+   "id": 455,
+   "s": "What did the hamburger name its daughter?",
+   "p": "Patty."
+  },
+  {
+   "id": 456,
+   "s": "What did the summer say to the spring?",
+   "p": "Help, I'm going to fall!"
+  },
+  {
+   "id": 457,
+   "s": "Why did the pilgrim's pants keep falling down?",
+   "p": "He wore his belt buckle on his hat."
+  },
+  {
+   "id": 458,
+   "s": "What do you call a pirate who skips class?",
+   "p": "Captain Hooky."
+  },
+  {
+   "id": 459,
+   "s": "Why did the singer bring a ladder to the concert?",
+   "p": "To reach the high notes."
+  },
+  {
+   "id": 460,
+   "s": "What did the scientist say when he found two helium atoms?",
+   "p": "HeHe."
+  },
+  {
+   "id": 461,
+   "s": "Why did the mechanic sleep under the car?",
+   "p": "He wanted to wake up oily."
+  },
+  {
+   "id": 462,
+   "s": "When is a door not a door?",
+   "p": "When it's ajar."
+  },
+  {
+   "id": 463,
+   "s": "What's a golfer's favorite letter?",
+   "p": "Tee."
+  },
+  {
+   "id": 464,
+   "s": "What do hockey players and magicians have in common?",
+   "p": "They both do hat tricks."
+  },
+  {
+   "id": 465,
+   "s": "Why did the student bring scissors to school?",
+   "p": "So he could cut class."
+  },
+  {
+   "id": 466,
+   "s": "Why do giraffes have such long necks?",
+   "p": "Because their feet smell."
+  },
+  {
+   "id": 467,
+   "s": "What's black and white and read all over?",
+   "p": "A newspaper."
+  },
+  {
+   "id": 468,
+   "s": "What kind of nut has no shell?",
+   "p": "A doughnut."
+  },
+  {
+   "id": 469,
+   "s": "What did the bacon say to the tomato?",
+   "p": "Lettuce get together."
+  },
+  {
+   "id": 470,
+   "s": "What's the Easter Bunny's favorite kind of music?",
+   "p": "Hip hop."
+  },
+  {
+   "id": 471,
+   "s": "Why did the robot go on vacation?",
+   "p": "To recharge its batteries."
+  },
+  {
+   "id": 472,
+   "s": "Why did the cyclops close his school?",
+   "p": "He only had one pupil."
+  },
+  {
+   "id": 473,
+   "s": "Why did the cat sit on the computer?",
+   "p": "To keep an eye on the mouse."
   }
  ]
 }
