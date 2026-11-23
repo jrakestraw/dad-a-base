@@ -1,6 +1,6 @@
 {
- "version": 6,
- "updated": "2026-11-16",
+ "version": 7,
+ "updated": "2026-11-23",
  "jokes": [
   {
    "id": 1,
@@ -2366,6 +2366,131 @@
    "id": 473,
    "s": "Why did the cat sit on the computer?",
    "p": "To keep an eye on the mouse."
+  },
+  {
+   "id": 474,
+   "s": "What do you call a fish that wears a crown?",
+   "p": "A king mackerel."
+  },
+  {
+   "id": 475,
+   "s": "Why did the coffee taste like dirt?",
+   "p": "It was ground this morning."
+  },
+  {
+   "id": 476,
+   "s": "What do you call a cow that just had a baby?",
+   "p": "Decalfinated."
+  },
+  {
+   "id": 477,
+   "s": "What kind of shoes do frogs wear?",
+   "p": "Open-toad sandals."
+  },
+  {
+   "id": 478,
+   "s": "Why did the moon skip dinner?",
+   "p": "It was already full."
+  },
+  {
+   "id": 479,
+   "s": "What happens when a snowman throws a tantrum?",
+   "p": "He has a meltdown."
+  },
+  {
+   "id": 480,
+   "s": "What did the pencil sharpener say to the pencil?",
+   "p": "Stop going in circles and get to the point."
+  },
+  {
+   "id": 481,
+   "s": "Why did the soccer player bring string to the game?",
+   "p": "So she could tie the score."
+  },
+  {
+   "id": 482,
+   "s": "What position does a ghost play in hockey?",
+   "p": "Ghoulie."
+  },
+  {
+   "id": 483,
+   "s": "Why did the weather forecaster bring a bar of soap to work?",
+   "p": "She was predicting showers."
+  },
+  {
+   "id": 484,
+   "s": "What did the gingerbread man put on his bed?",
+   "p": "A cookie sheet."
+  },
+  {
+   "id": 485,
+   "s": "Why was the Easter egg hiding?",
+   "p": "It was a little chicken."
+  },
+  {
+   "id": 486,
+   "s": "Why was the window so sad?",
+   "p": "It had too many panes."
+  },
+  {
+   "id": 487,
+   "s": "Where do cows go on vacation?",
+   "p": "Moo York."
+  },
+  {
+   "id": 488,
+   "s": "Why was the guitar so nervous?",
+   "p": "It was too high-strung."
+  },
+  {
+   "id": 489,
+   "s": "What's a fish's favorite instrument?",
+   "p": "The bass guitar."
+  },
+  {
+   "id": 490,
+   "s": "What do you call a tooth in a glass of water?",
+   "p": "A one molar solution."
+  },
+  {
+   "id": 491,
+   "s": "Why are chefs so bad at keeping secrets?",
+   "p": "They always spill the beans."
+  },
+  {
+   "id": 492,
+   "s": "Why did the computer programmer quit his job?",
+   "p": "He didn't get arrays."
+  },
+  {
+   "id": 493,
+   "s": "What do you call a penguin in the desert?",
+   "p": "Lost."
+  },
+  {
+   "id": 494,
+   "s": "Why do ducks make great detectives?",
+   "p": "They always quack the case."
+  },
+  {
+   "id": 495,
+   "s": "What do you call a group of musical whales?",
+   "p": "An orca-stra."
+  },
+  {
+   "id": 496,
+   "s": "What did the hot dog say when it won the race?",
+   "p": "I'm the wiener!"
+  },
+  {
+   "id": 497,
+   "s": "Why do bananas wear sunscreen?",
+   "p": "Because they peel easily."
+  },
+  {
+   "id": 498,
+   "s": "Why was the math lesson so long?",
+   "p": "The teacher kept going off on a tangent."
   }
  ]
 }
